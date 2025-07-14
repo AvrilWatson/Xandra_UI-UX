@@ -82,7 +82,7 @@ my-new-app
 |   |   |-- react-logo@3x.png
 |   |   `-- splash-icon.png
 |   `-- artData.ts    
-|-- components                          # The components that consists each screen
+|-- components                          # The components that makes up each screen
 |   |-- ui
 |   |   |-- IconSymbol.ios.tsx
 |   |   |-- IconSymbol.tsx
@@ -114,7 +114,7 @@ my-new-app
 |-- scripts
 |   `-- reset-project.js
 |-- README.md
-|-- app.json                     # The files below including this one are for configuration use.
+|-- app.json                     # The files below including this one are for configuration uses.
 |-- eslint.config.js
 |-- expo-env.d.ts
 |-- package-lock.json
