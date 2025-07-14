@@ -1,6 +1,4 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Expo app with React.Native 👋
 
 ## Get started
 
@@ -41,6 +39,70 @@ To learn more about developing your project with Expo, look at the following res
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## File Structure
+
+```text
+my-new-app
+|-- app
+|   |-- (tabs)
+|   |   |-- _layout.tsx
+|   |   |-- explore.tsx
+|   |   `-- index.tsx 
+|   |-- +not-found.tsx
+|   |-- _layout.tsx   
+|   |-- loading.tsx   
+|   |-- select.tsx    
+|   `-- view.tsx      
+|-- assets
+|   |-- fonts
+|   |   `-- SpaceMono-Regular.ttf
+|   |-- images
+|   |   |-- adaptive-icon.png
+|   |   |-- favicon.png
+|   |   |-- icon.png  
+|   |   |-- partial-react-logo.png
+|   |   |-- react-logo.png
+|   |   |-- react-logo@2x.png
+|   |   |-- react-logo@3x.png
+|   |   `-- splash-icon.png
+|   `-- artData.ts    
+|-- components
+|   |-- ui
+|   |   |-- IconSymbol.ios.tsx
+|   |   |-- IconSymbol.tsx
+|   |   |-- TabBarBackground.ios.tsx        
+|   |   `-- TabBarBackground.tsx
+|   |-- Collapsible.tsx
+|   |-- EmotionInput.tsx
+|   |-- ExternalLink.tsx
+|   |-- HapticTab.tsx 
+|   |-- HelloWave.tsx 
+|   |-- Land_ArtworkGallery.tsx
+|   |-- Land_Header.tsx
+|   |-- ParallaxScrollView.tsx
+|   |-- Select_ArtGallerySelection.tsx      
+|   |-- Select_ArtWorkGallery.tsx
+|   |-- Select_Header.tsx
+|   |-- ThemedText.tsx
+|   |-- ThemedView.tsx
+|   |-- View_ArtDetails.tsx
+|   |-- useColorScheme.ts
+|   |-- useColorScheme.web.ts
+|   `-- useThemeColor.ts
+|-- hooks
+|-- node_modules
+|-- scripts
+|   `-- reset-project.js
+|-- README.md
+|-- app.json
+|-- eslint.config.js
+|-- expo-env.d.ts
+|-- package-lock.json
+|-- package.json
+`-- tsconfig.json
+
+```
 
 ## Join the community
 
